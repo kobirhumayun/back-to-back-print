@@ -4,7 +4,7 @@ Option Explicit
  Sub b2bPrint()
      
     Dim filePathArr As Variant
-    filePathArr = Application.Run("utility_functions.returnSelectedFilesFullPathArr", "G:\PDL Customs\Export LC, Import LC & UP\Import LC With Related Doc\YEAR-2024")  ' all b2b path
+    filePathArr = Application.Run("utility_functions.returnSelectedFilesFullPathArr", "G:\PDL Customs\Export LC, Import LC & UP\Import LC With Related Doc\YEAR-2025")  ' all b2b path
     
     Dim filePath As Variant
     Dim btlPiPageNum As Integer
